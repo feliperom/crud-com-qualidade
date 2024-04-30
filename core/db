@@ -1,1 +1,20 @@
-Hoje eu preciso gravar aulas de HTML!
+{
+  "todos": [
+    {
+      "date": "2024-04-30T17:39:19.460Z",
+      "content": "Hoje eu preciso gravar a 1º aula de HTML!",
+      "done": false
+    },
+    {
+      "date": "2024-04-30T17:39:19.461Z",
+      "content": "Hoje eu preciso gravar a 2º aula de HTML!",
+      "done": false
+    },
+    {
+      "date": "2024-04-30T17:39:19.461Z",
+      "content": "Hoje eu preciso gravar a 3º aula de HTML!",
+      "done": false
+    }
+  ],
+  "dogs": []
+}
