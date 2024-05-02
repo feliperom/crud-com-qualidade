@@ -1,20 +1,14 @@
 {
   "todos": [
     {
-      "id": "9e4e45e5-1011-42ef-b668-a7d7bbd6cec7",
-      "date": "2024-05-02T17:02:33.675Z",
+      "id": "9ec33022-8a38-4f96-b51a-2fd0ff252ce0",
+      "date": "2024-05-02T17:12:24.966Z",
       "content": "Hoje eu preciso gravar a 1º aula de HTML!",
       "done": false
     },
     {
-      "id": "74d8427b-f8a2-4e00-8120-45468908c875",
-      "date": "2024-05-02T17:02:33.675Z",
-      "content": "Hoje eu preciso gravar a 2º aula de HTML!",
-      "done": false
-    },
-    {
-      "id": "8f911cda-0d89-44a9-a8c4-1c404e0754d8",
-      "date": "2024-05-02T17:02:33.676Z",
+      "id": "57651c41-fa5a-403a-8f7e-218755f74173",
+      "date": "2024-05-02T17:12:24.967Z",
       "content": "Atualizado!",
       "done": false
     }
