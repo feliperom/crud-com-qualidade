@@ -2,7 +2,7 @@ import fs from "fs"; //ES6
 import { v4 as uuid } from "uuid";
 const DB_FILE_PATH = "./core/db";
 
-console.log("[CRUD]");
+// console.log("[CRUD]");
 
 interface Todo {
   id: string;
@@ -35,7 +35,7 @@ function create(content: string): Todo {
   return todo;
 }
 
-function read(): Array<Todo> {
+export function read(): Array<Todo> {
   const dbString = fs.readFileSync(DB_FILE_PATH, "utf8");
   const db = JSON.parse(dbString || "{}");
   if (!db.todos) {
@@ -102,17 +102,17 @@ function CLEAR_DB() {
 }
 
 //[SIMULATION]
-CLEAR_DB();
-create("Hoje eu preciso gravar a 1º aula de HTML!");
-const secondTodo = create("Hoje eu preciso gravar a 2º aula de HTML!");
-deleteById(secondTodo.id);
-const thirdTodo = create("Hoje eu preciso gravar a 3º aula de HTML!");
-// update(thirdTodo.id, {
-//   content: "Atualizando o content.",
-//   done: true,
-// });
-updateContentByID(thirdTodo.id, "Atualizado!");
+// CLEAR_DB();
+// create("Hoje eu preciso gravar a 1º aula de HTML!");
+// const secondTodo = create("Hoje eu preciso gravar a 2º aula de HTML!");
+// deleteById(secondTodo.id);
+// const thirdTodo = create("Hoje eu preciso gravar a 3º aula de HTML!");
+// // update(thirdTodo.id, {
+// //   content: "Atualizando o content.",
+// //   done: true,
+// // });
+// updateContentByID(thirdTodo.id, "Atualizado!");
 
-const todos = read();
-console.log(todos);
-console.log(todos.length);
+// const todos = read();
+// console.log(todos);
+// console.log(todos.length);
